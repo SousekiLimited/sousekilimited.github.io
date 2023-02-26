@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Souseki Limited</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <link rel="stylesheet" href="https://unpkg.com/98.css">
     <style>
         body {
@@ -16,6 +16,7 @@
             image-rendering: -o-crisp-edges;
             image-rendering: -webkit-optimize-contrast;
             -ms-interpolation-mode: nearest-neighbor;
+            padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
         }
         button {
             color: #222 !important;
